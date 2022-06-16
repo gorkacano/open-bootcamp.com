@@ -1,0 +1,20 @@
+const name = 'Gorka';
+const surename = 'Cano';
+const student = name+' '+surename;
+// const student = "String para probar que name no esta en student";
+const studentUpper = student.toUpperCase();
+const studentLower = student.toLowerCase();
+const studentStringCharacters = student.length;
+const nameFirstLetter = name[0];
+const surenameLastLetter = surename.slice(-1);
+const studentClean = student.replace(" ","");
+const isNameInStudent = student.includes(name);
+
+console.log(student);
+console.log(studentUpper);
+console.log(studentLower);
+console.log(studentStringCharacters);
+console.log(nameFirstLetter);
+console.log(surenameLastLetter);
+console.log(studentClean);
+console.log(isNameInStudent);
